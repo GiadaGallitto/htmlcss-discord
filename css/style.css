@@ -227,7 +227,7 @@ footer h3{
 #social-icons img{
     width: 1.5rem;
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 1.2rem;
 }
 
 .purple-title{
@@ -240,17 +240,21 @@ footer h3{
     border: 1px solid darkblue;
 }
 
-/* Da togliere in seguito color */
 .main-footer .right-part{
     flex-basis: 75%;
-    background-color: #20b2aa;
 }
 
 .right-part>.info{
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
+.nav-list{
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2.3rem;
+}
 
 hr{
     color: white;
