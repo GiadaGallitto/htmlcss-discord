@@ -234,10 +234,8 @@ footer h3{
     color: #7289da;
 }
 
-/* Da togliere in seguito color*/
 .right-part>div{
     flex-basis: 25%;
-    border: 1px solid darkblue;
 }
 
 .main-footer .right-part{
