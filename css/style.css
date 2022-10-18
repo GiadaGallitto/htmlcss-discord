@@ -107,6 +107,10 @@ button#black-button{
     background-color: #23272a;
 }
 
+.divider>img{
+    display: block;
+}
+
 .inverted-divider{
     transform: rotate(180deg);
 }
@@ -119,10 +123,8 @@ main section:first-child{
 margin-top: 5rem;
 }
 
-/* Trovare un'alternativa per il margin (display-block)*/
 .gray-bg{
-    margin: -1rem;
-    background-color: #dedede;
+    background-color: #f6f6f6;
 }
 
 .reverse{
