@@ -15,7 +15,8 @@ footer article{
 
 header{
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     padding-top: 1.5rem;
     color: white;
@@ -108,6 +109,25 @@ button#black-button{
     background-color: #23272a;
 }
 
+.sus{
+    height: 2rem;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+
+.surprise{
+    background-color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 2rem;
+    height: 2rem;
+}
+
+.surprise:hover{
+    background-image: url(../img/surprise.jpeg);
+    background-size: contain;
+}
+
 .divider>img{
     display: block;
 }
@@ -170,7 +190,7 @@ main h2{
     text-align: center;
 }
 
-.main-example div:first-child{
+.main-example h2, .main-example p{
     width: 57%;
 }
 
