@@ -94,7 +94,7 @@ div.header-buttons{
     margin-top: 1.5rem;
 }
 
-.header-buttons button{
+.header-buttons button, #lilla-button{
     margin: 1.5rem;
     padding: 0.7rem 1.3rem;
     border-radius: 22px;
@@ -106,7 +106,6 @@ button#black-button{
     color: white;
     background-color: #23272a;
 }
-
 
 .inverted-divider{
     transform: rotate(180deg);
@@ -160,25 +159,35 @@ main h2{
 
 /* Da togliere in seguito width in un'altra classe e color */
 .main-example{
-    background-color: green;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 3rem 0;
     margin-bottom: 5rem;
+    text-align: center;
+}
+
+.main-example div:first-child{
+    width: 57%;
 }
 
 /* Da togliere in seguito border, modificare bene la bg-image */
 .stars-bg{
+    font-size: 1.2rem;
     width: 30%;
-    height: 2.5rem;
+    height: 4.5rem;
     text-align: center;
+    padding: 1rem;
     line-height: 2.5rem;
-    border: 1px solid black;
     background-image: url(../img/stars.svg);
-    background-size: cover;
-    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-example button{
+    color: white;
+    background-color: #8ea0e1;
 }
 
 footer section{
